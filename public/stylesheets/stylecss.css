@@ -1,0 +1,56 @@
+#card {
+    background: #fff;
+    border-radius: 8px;
+    height: 500px;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;
+    border-radius: 24px;
+}
+
+body {
+    background:url(download.jpg);
+    background-repeat: no-repeat;
+}
+
+#footer{
+    height: 2px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+#content {
+    padding: 12px 44px;
+}
+#title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+.underline-title {
+    background-color: black;
+    height: 3px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}

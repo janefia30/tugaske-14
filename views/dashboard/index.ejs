@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky"></div>
+            <ul class="nav flex-column">
+                <h4> <img src="images/download (2).png" style="width: 30px;">Jane</h4>
+                <li><a>
+                        <img src="images/download.png" style="width: 30px;">Home
+                    </a>
+                </li>
+                <br>
+                <li><a style="background-color: limegreen; padding: 10px; "><img src="images/download (1).png"
+                            style="width: 30px;">Inventory</a>
+
+                </li>
+            </ul>
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                <span></span>
+                <a class="d-flex align-items-center text-muted" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle">
+
+                    </svg>
+                </a>
+            </h6>
+            <p></p>
+            <ul class="nav flex-column mb-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-file-text">
+
+                        </svg>
+                        <p></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-file-text">
+
+                        </svg>
+                        <p></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-file-text">
+
+                        </svg>
+                        <p></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-file-text">
+
+                        </svg>
+                        <p></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form style="margin-left: 300px; width: 500px; margin-right: 200; margin-top: 100px;"
+            action="http://localhost:3000/posts/store">
+            <center>
+                <h1>Inventory</h1>
+            </center>
+            <div class="form-group">
+                <label for="exampleInputnamabrang">Nama barang</label>
+                <input type="text" class="form-control" id="nama" name="Enter nama">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputjumlah">jumlah</label>
+                <input type="text" class="form-control" id="jumlah" name="jumlah">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputharga">Harga</label>
+                <input type="text" class="form-control" id="harga" name="harga">
+            </div>
+
+            <button type="submit" class="btn btn-costum"
+                style="background-color: limegreen; width: 250px;">Submit</button>
+        </form>
+    </div>
+</body>
+
+
+</html>
